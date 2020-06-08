@@ -16,33 +16,33 @@ Let's dive into each sheet into detail,
 
 This is the sheet where you enter the day to day transactions.
 
-**Date**
+*Date*
  - The values are of Short Date type.
 
-**Transaction Type**
+*Transaction Type*
  - There are three transaction types - Expense, Income and Transfer.
  - Data validation is used for the drop-down.
  - The list for data validation is from the top row of the 'Categories' sheet.
 
-**Account**
+*Account*
  - Data validation list is taken from the 'Accounts' sheet.
 
-**Category**
+*Category*
  - Category dropdown appears based on the Transaction Type.
  - Data Validation list is the INDIRECT of the Transaction Type.
  - This works as we have created defined names using the Create from Selection option in 'Categories' sheet before.
 
-**Sub-Category**
+*Sub-Category*
  - Sub Categories appear based on the Category selected.
  - This is done just like categories using INDIRECT and defined names.
 
-**Transferred to**
+*Transferred to*
  - Account Name for which the funds are being transferred.
 
-**Amount**
+*Amount*
  - Formated as currency.
 
-**Memo**
+*Memo*
  - The title is self-explanatory.
 
 ### Reports
